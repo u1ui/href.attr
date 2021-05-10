@@ -1,5 +1,5 @@
 # u1-href
-turn every element in a link
+Turns every element in a link
 
 # Ussage
 
