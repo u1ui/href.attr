@@ -1,2 +1,2 @@
 # attr-href
-ui-href-attribute, href for every element
+ui-href-attribute, turn every element in a link
