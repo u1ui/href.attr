@@ -6,11 +6,9 @@ Turns every element in a link
 ```html
 <table>
     <tr u1-href="detail.html">
-        <td>
-            <a href="detail.html">Show me the details</a>
-        </td>
-        <td> John </td>
-        <td> Muller </td>
+        <td> John
+        <td> Muller
+        <td> <a href="detail.html">Show me the details</a>
     <tr>
 </table>
 ```
