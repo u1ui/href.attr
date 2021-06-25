@@ -7,14 +7,10 @@ Turns every element in a link
 <table>
     <tr u1-href="detail.html">
         <td>
-            <a href="test.html">Show me the details</a>
+            <a href="detail.html">Show me the details</a>
         </td>
-        <td>
-            ...
-        </td>
-        <td>
-            ...
-        </td>
+        <td> John </td>
+        <td> Muller </td>
     <tr>
 </table>
 ```
