@@ -16,6 +16,7 @@ Turns every element in a link
 # Note
 Always offer an A-Tag with the same link. Screen readers do not recognize that this is a link!
 
-## Demo
+## Demos
+https://raw.githack.com/u1ui/href.attr/main/tests/minimal.html  
 https://raw.githack.com/u1ui/href.attr/main/tests/test.html  
 
