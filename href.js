@@ -6,25 +6,24 @@ c1.href = {
 };
 */
 document.addEventListener('click', e => {
-	//if (e.which !== 1) return;
 	if (e.button !== 0) return; // only left-click
 	if (e.defaultPrevented) return; // not if prevented
-	var sel = getSelection();
+	const sel = getSelection();
 	if (!sel.isCollapsed) { // only if the selection is collapsed.
-		var textSelected = sel.anchorNode.nodeType === 3 || sel.focusNode.nodeType === 3;
-		var shadowElSelected = sel.focusNode.nodeType === 11; // svg-use-element, firefox
+		const textSelected = sel.anchorNode.nodeType === 3 || sel.focusNode.nodeType === 3;
+		const shadowElSelected = sel.focusNode.nodeType === 11; // svg-use-element, firefox
 		if (textSelected && !shadowElSelected) return;
 	}
 	if (!e.target.closest) return; // some targets have no closest method?
-	var A = e.target.closest('[u1-href]'); // find
+	const A = e.target.closest('[u1-href]'); // find
 	if (!A) return;
 	if (e.target.closest('a,input,textarea,select,button')) return;
 	//if (e.target.closest('[onclick]')) return; //
 	//if (e.target.closest(c1.href.ignoreSelector)) return;
 	if (e.target.isContentEditable) return; // not if contenteditable
-	var href = A.getAttribute('u1-href'); // get the url
+	const href = A.getAttribute('u1-href'); // get the url
 	if (!href) return;
-	var target = A.getAttribute('u1-target'); // get the target
+	let target = A.getAttribute('u1-href-target'); // get the target
 	if (e.ctrlKey) target = '_blank'; // better random-string?
     /*
 	var event = new CustomEvent('u1-href-navigate', { // trigger custom event with the ability to prevent Navigation
@@ -38,8 +37,7 @@ document.addEventListener('click', e => {
 	if (event.defaultPrevented) return;
     */
 	if (target) {
-		window.open(href, target, 'noopener');
-		//!e.ctrlKey && win.focus(); // not needed in chrome, not working in ff
+		window.open(href, target, 'noopener'); //!e.ctrlKey && win.focus(); // not needed in chrome, not working in ff
 	} else {
 		location.href = href;
 	}
