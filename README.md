@@ -9,25 +9,20 @@ Every element can be a link
 </div>
 ```
 
-## Note
-
-Always offer an A-Tag with the same link. Screen readers do not recognize that this is a link!
-
-## Demos
-
-https://raw.githack.com/u1ui/href.attr/main/tests/minimal.html  
-https://raw.githack.com/u1ui/href.attr/main/tests/test.html
-
 ## Install
 
 ```html
 <script src="https://cdn.jsdelivr.net/gh/u1ui/href.attr@3.0.0/href.min.js" type=module>
 ```
 
-## Demo
+## Demos
 
-https://raw.githack.com/u1ui/href.attr/main/tests/minimal.html  
-https://raw.githack.com/u1ui/href.attr/main/tests/test.html  
+[minimal.html](https://raw.githack.com/u1ui/href.attr/main/tests/minimal.html)  
+[test.html](https://raw.githack.com/u1ui/href.attr/main/tests/test.html)  
+
+## Note
+
+Always offer an A-Tag with the same link. Screen readers do not recognize that this is a link!
 
 ## About
 
