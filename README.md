@@ -22,8 +22,8 @@ Every element can be a link
 
 ## Demos
 
-[minimal.html](https://raw.githack.com/u1ui/href.attr/main/tests/minimal.html)  
-[test.html](https://raw.githack.com/u1ui/href.attr/main/tests/test.html)  
+[minimal.html](http://gcdn.li/u1ui/href.attr@main/tests/minimal.html)  
+[test.html](http://gcdn.li/u1ui/href.attr@main/tests/test.html)  
 
 ## Note
 
