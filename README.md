@@ -9,11 +9,6 @@ Every element can be a link
 </div>
 ```
 
-```css
-[u1-href] {
-}
-```
-
 ## Install
 
 ```html
