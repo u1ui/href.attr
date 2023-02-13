@@ -12,7 +12,7 @@ Every element can be a link
 ## Install
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/u1ui/href.attr@3.0.0/href.min.js" type=module>
+<script src="https://cdn.jsdelivr.net/gh/u1ui/href.attr@x.x.x/href.min.js" type=module>
 ```
 
 ## Demos
