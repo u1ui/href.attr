@@ -1,6 +1,13 @@
 # [u1-href] - attribute
 Every element can be a link
 
+## Description
+
+This attribute allows you to make any element a link.
+Simply add the attribute `u1-href` to the element.
+Ctrl + Click opens the link in a new tab.
+XSS attacks are prevented by not allowing the `javascript:` protocol.
+
 ## Ussage
 
 ```html
@@ -28,4 +35,3 @@ Always offer an A-Tag with the same link. Screen readers do not recognize that t
 
 - MIT License, Copyright (c) 2022 <u1> (like all repositories in this organization) <br>
 - Suggestions, ideas, finding bugs and making pull requests make us very happy. ♥
-
