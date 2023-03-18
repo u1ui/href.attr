@@ -3,10 +3,10 @@ Every element can be a link
 
 ## Description
 
-This attribute allows you to make any element a link.
-Simply add the attribute `u1-href` to the element.
-Ctrl + Click opens the link in a new tab.
-XSS attacks are prevented by not allowing the `javascript:` protocol.
+This attribute allows you to turn any element into a link by simply adding the `u1-href` attribute to it.
+`Ctrl + click` will open the link in a new tab.
+Interactive elements such as buttons, input fields, etc. inside the pseudo-link element prevent the link from being opened.
+XSS attacks are prevented by disallowing the `javascript:` protocol.
 
 ## Ussage
 
