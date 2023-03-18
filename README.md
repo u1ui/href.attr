@@ -5,7 +5,7 @@ Every element can be a link
 
 This attribute allows you to turn any element into a link by simply adding the `u1-href` attribute to it.
 `Ctrl + click` will open the link in a new tab.
-Interactive elements such as buttons, input fields, etc. inside the pseudo-link element prevent the link from being opened.
+Clicks on interactive elements inside the pseudo-link element prevent the link from being opened.
 XSS attacks are prevented by disallowing the `javascript:` protocol.
 
 ## Ussage
