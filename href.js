@@ -18,6 +18,10 @@ document.addEventListener('click', e => {
 	if (e.target.isContentEditable) return; // not if contenteditable
 	const href = A.getAttribute('u1-href'); // get the url
 	if (!href) return;
+
+	const url = new URL(href, location.href); // security check, as its not a standard attribute, puryfiers will probably not remove it
+	if (url.protocol === 'javascript:') return;
+
 	let target = A.getAttribute('u1-href-target'); // get the target
 	if (e.ctrlKey) target = '_blank'; // better random-string?
 	// var event = new CustomEvent('u1-href-navigate', { // trigger custom event with the ability to prevent Navigation
