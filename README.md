@@ -1,13 +1,6 @@
 # [u1-href] - attribute
 Every element can be a link
 
-## Description
-
-This attribute allows you to turn any element into a link by simply adding the `u1-href` attribute to it.
-`Ctrl + click` will open the link in a new tab.
-Clicks on interactive elements inside the pseudo-link element prevent the link from being opened.
-XSS attacks are prevented by disallowing the `javascript:` protocol.
-
 ## Ussage
 
 ```html
@@ -27,6 +20,13 @@ XSS attacks are prevented by disallowing the `javascript:` protocol.
 [minimal.html](http://gcdn.li/u1ui/href.attr@main/tests/minimal.html)  
 [test.html](http://gcdn.li/u1ui/href.attr@main/tests/test.html)  
 
+## Description
+
+This attribute allows you to turn any element into a link by simply adding the `u1-href` attribute to it.
+`Ctrl + click` will open the link in a new tab.
+Clicks on interactive elements inside the pseudo-link element prevent the link from being opened.
+XSS attacks are prevented by disallowing the `javascript:` protocol.
+
 ## Note
 
 Always offer an A-Tag with the same link. Screen readers do not recognize that this is a link!
@@ -35,3 +35,4 @@ Always offer an A-Tag with the same link. Screen readers do not recognize that t
 
 - MIT License, Copyright (c) 2022 <u1> (like all repositories in this organization) <br>
 - Suggestions, ideas, finding bugs and making pull requests make us very happy. ♥
+
